@@ -1,6 +1,9 @@
 word_list = ['hello','world','my','name','is','Anna']
 char = 'n'
+new_list = []
 
-for i in word_list:
-    if char in i:
-        print i
+for word in word_list:
+    if char in word:
+        # print i
+        new_list.append(word)
+        print new_list
