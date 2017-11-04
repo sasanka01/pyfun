@@ -13,7 +13,7 @@ for i in range (5,1000001,5):
 # sum of all values in the list
 
 a = [1, 2, 5, 10, 255, 3]
-# print sum(a)
+ print sum(a)
 
 
 # print the average of the list
