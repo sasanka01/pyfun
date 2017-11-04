@@ -15,6 +15,7 @@ my_var ={ 'sI': 45,
 
 
 for key,value in my_var.items():
+    print value
     print  type(value)
     if type(value) == int and value >= 100:
         print "thats a big number"
