@@ -1,14 +1,25 @@
 # l = [2,3,1,7,4,12]
-# l = ['magical','unicorns']
+#l = ['magical','unicorns']
 l = ['magical unicorns',19,'hello',98.98,'world']
+add = 0
+strings = ""
+output = ""
 
 for i in l:
-    # print type(i)
-    # if type(i) == int:
-    #     print sum(l)
+    if isinstance(i,int):
+        add = add + i
+        if output == "string":
+            output = "mixed"
+        else:
+            output = "integer"
 
-    # if type(i) == str:
-    #     print " ".join(l)
+    elif isinstance(i,str):
+        strings = strings + i
+        if output == "integer":
+            output = "mixed"
+        else:
+            output = "string"
 
-    if type(i) == int
-        print sum(i):
+print add
+print strings
+print output
