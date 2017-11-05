@@ -1,6 +1,7 @@
 import random
 random_num = random.randint(1,100)
 def grades(random_num):
+    # print random_num
     if random_num in range(60,70):
         print "score", random_num, ": Your grade is D"
         # return random_num
