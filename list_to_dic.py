@@ -23,6 +23,7 @@ favorite_animal = ["horse", "cat", "spider", "giraffe", "ticks", "dolphins", "ll
 
 def list_to_dic(arr1, arr2):
     dictionary = dict(zip(arr1,arr2))
-    print dictionary
+    return dictionary
 
-list_to_dic(name,favorite_animal)
+a = list_to_dic(name,favorite_animal)
+print a
